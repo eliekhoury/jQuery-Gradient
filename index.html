@@ -1,0 +1,17 @@
+<html>
+<head>
+<title>Gradient Test</title>
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript" src="jquery.gradient.js"></script>
+</head>
+<body>
+<script>
+$(function() {
+	var div = document.createElement('div');
+	$(div).width('300').height('100');
+	$(div).gradient('#ccc','#aaa');
+	$('body').append(div);
+});
+</script>
+</body>
+</html>
